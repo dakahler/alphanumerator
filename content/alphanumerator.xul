@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+  
+<overlay id="AlphanumeratorOverlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+		 
+<script type="application/x-javascript" src="chrome://alphanumerator/content/alphanumerator.js"/>
+
+
+<popup id="contentAreaContextMenu">
+   <menuitem id="alphanumerator" label="Alphanumerate" oncommand="anAlphanumerate();"/>
+</popup>
+
+<popup id="messagePaneContext">
+   <menuitem id="alphanumerator" label="Alphanumerate" oncommand="anAlphanumerate();"/>
+</popup>
+
+</overlay>
